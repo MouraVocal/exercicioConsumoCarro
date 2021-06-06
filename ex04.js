@@ -21,9 +21,9 @@ class Car {
             console.log('Hora de abastecer!');
         }
     }
-    refuel(howMuch){
-        this.remainingGasoline += howMuch
-        console.log(`O tanque foi abastecido em ${howMuch}, o tanque está com ${this.remainingGasoline} litros`)
+    refuel(stockedGasoline){
+        this.remainingGasoline += stockedGasoline
+        console.log(`O tanque foi abastecido em ${stockedGasoline}, o tanque está com ${this.remainingGasoline} litros`)
     }
 }
 
